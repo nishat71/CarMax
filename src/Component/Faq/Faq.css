@@ -1,0 +1,40 @@
+.accordion-area{
+    padding-top: 40px;
+}
+.accordion-container{
+    width: 1170px;
+    margin: auto;
+}
+.faq{
+    padding-bottom: 30px;
+}
+
+
+
+/* Responsive code 
+Medium Layout: 1280px.
+Checking Size 1000px */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .accordion-container {
+        width: 970px;       
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .accordion-container {
+        width: 750px;       
+    }
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+    .accordion-container {
+        width: 320px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .accordion-container {
+        width: 450px;       
+    }
+ }

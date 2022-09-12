@@ -1,0 +1,122 @@
+.statContainer{
+    margin: auto;
+    background-image: url('../../../public/fea.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-color: #211e3b; */
+    height: 70vh;
+    position: relative;
+    z-index: 1;
+}
+.statContainer h2{
+    font-family:'Oleo Script', cursive;
+}
+.statContainer:before{
+    position: absolute;
+    content: "";
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    opacity: .65;
+    z-index: -2;
+    
+}
+.stat{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.stat1{
+    /* background-color: #333333; */
+    border-radius: 10px;
+}
+.stat1 h1{
+    font-size: 30px;
+}
+
+
+
+
+
+/* Responsive code */
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .statContainer{
+        width: 992px;
+        height: 480px;
+    }
+    .statContainer h2{
+
+    }
+    .stat{
+        margin-top: 80px;
+    }
+    .stat1{
+        /* background-color: #333333; */
+        border-radius: 10px;  
+    }
+    .stat1 h1{
+        font-size: 28px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+/* Checking Size 800px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .statContainer{
+        height: 380px;
+        width: 768px;
+    }
+    .statContainer:before{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .statContainer h2{
+         font-size: 20px;
+    }
+    .stat{
+        margin-top: 80px;
+    }
+    .stat1 h1{
+        font-size: 23px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+    .statContainer{
+        width: 320px;
+        height: 270px;
+
+    }
+    .statContainer h2{
+         font-size: 15px;
+    }
+    .stat{
+        margin-top: 40px;
+    }
+    .stat1 h1{
+        font-size: 10px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .statContainer{
+        width: 480px;
+        height: 280px;
+    }
+    .statContainer h2{
+         font-size: 18px;
+    }
+    .stat{
+        margin-top: 50px;
+    }
+    .stat1 h1{
+        font-size: 16px;
+    }
+}
+

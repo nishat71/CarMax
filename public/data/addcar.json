@@ -1,0 +1,123 @@
+[
+    {
+      "_id": "618d5c0955cf275e37094bde",
+      "brand": "BMW",
+      "title": "BMW X1",
+      "description": "Milestones ahead: the new BMW X1 has come to set standards. Its eagerness for action is shown above all in its athletic design. At first glance, it is an X model through and through: its exterior is characterised by short overhangs and a long wheelbase typical of a SAV (Sports Activity Vehicle). It makes its ambitions clear with convincing dynamics and agility. And thanks to high versatility and flexibility in combination with innovative technologies, it ensures maximum comfort on every meter of the ride.  BMW X1 xDrive20i: Fuel consumption in l/100 km (combined): 7.1 CO2 emissions in g/km (combined): 163",
+      "price": "75000",
+      "rating": "4.8",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/bJgD1X1/bmw-x1.jpg"
+    },
+    {
+      "_id": "618d5c4055cf275e37094bdf",
+      "brand": "BMW",
+      "title": "BMW X2",
+      "description": "Absolutely unique. Extremely exceptional. The BMW X2 makes its sporty ambitions quite clear at first sight. Thanks to its bold athleticism, it supplies a dynamic and agile performance that is unrivalled in this class. Coupled with a high-quality interior and many innovative technologies, it is the extroverted protagonist of a new era. Are you ready?     BMW X2 xDrive20d: Fuel consumption in l/100 km (combined): 5.2–5.1 CO2 emissions in g/km (combined): 137–134",
+      "price": "80000",
+      "rating": "4.9",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/LQZQPYZ/x2.jpg"
+    },
+    {
+      "_id": "618d5c6c55cf275e37094be0",
+      "brand": "BMW",
+      "title": "BMW X3",
+      "description": "The BMW X3 is a statement of unlimited opportunities and an expression of sheer presence and freedom. From the very first glance, it impresses with its athletic appearance and fascinates with an exciting driving experience. Thanks to partially autonomous driving and the intelligent all-wheel drive system BMW xDrive, it offers supreme ride comfort both on and off the road. It therefore redefines the benchmarks in its class and makes one thing unmistakably clear: there is a great difference in how you reach your destinations.",
+      "price": "85500",
+      "rating": "5",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/mcYdMXV/2022-BMW-X3-47.jpg"
+    },
+    {
+      "_id": "618d5caf55cf275e37094be1",
+      "brand": "BMW",
+      "title": "BMW X5",
+      "description": "The BMW X5 offers driving pleasure on any terrain thanks to the enhanced BMW TwinPower Turbo power unit and the outstanding traction of BMW xDrive all-wheel drive. The optional xOffroad package provides finer tuning: four selectable off-road modes adjust the all-wheel drive precisely to the current ground conditions. The best of both worlds: with the BMW X5 xDrive45e, you experience sustainable mobility and efficient driving dynamics. Explore the numerous benefits of this innovative BMW hybrid vehicle.",
+      "price": "90000",
+      "rating": "4.7",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/vCF5H8Q/x5.jpg"
+    },
+    {
+      "_id": "618d5cf555cf275e37094be2",
+      "brand": "BMW",
+      "title": "BMW 2 Series Gran Coupé",
+      "description": "Not a typical coupé but rather an incredible experience: the first-ever BMW 2 Series Gran Coupé introduces a new form of authority with a bold character to the compact class. It is above all the uncompromising, performance-oriented aesthetic that unmistakeably reveals its ambitions. Not elegant but extravagant. Not conventional but individual. Not ordinary – but extraordinary. In keeping with high-end technologies and perfectly tuned driving dynamics features, the BMW 2 Series Gran Coupé stands out from the crowd with ease and pursues its very own path.",
+      "price": "100000",
+      "rating": "5",
+      "fuel": "diesel",
+      "image": "https://i.ibb.co/GdcnDw4/bmw-2-series.jpg"
+    },
+    {
+      "_id": "618d5d2b55cf275e37094be3",
+      "brand": "BMW",
+      "title": "BMW 3 Series Sedan",
+      "description": "Barely on the road and the all-new BMW 3 Series Sedan is already leaving everything behind it, including conventions and expectations. Once again the icon displays how to reinvent itself. After all, with the pioneering design language, it stands for the dawning of a new era. Propelling the ultimate sports sedan are even more powerful and efficient engines. And a new force – simply say \"Hey BMW\" and the all-new BMW 3 Series recognises your voice and heeds your every word.        BMW 330i Sedan: Fuel consumption in l/100 km (combined): 6.4 CO2 emissions in g/km (combined): 147",
+      "price": "110000",
+      "rating": "5",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/Qm1w5pQ/2021-bmw-3-series.jpg"
+    },
+    {
+      "_id": "618f57f80828cd9bf81c58b7",
+      "brand": "BMW",
+      "title": "BMW 7 Series Sedan",
+      "description": "The BMW 7 Series Sedan impresses from the very first moment with its exceptional presence. The self-assured character is primarily underlined by the distinctive front. In the side, the vertical Air Breather emphasizes the height of the vehicle. The interplay between the paint finish in Bernina Grey with shimmering amber effect creates an elegance that, when combined with the 20\" wheels, delivers a statement of commanding dynamics. A greeting from the Welcome and Goodbye light staging beckons before you even enter your BMW. The interior welcomes you with exclusive, high-quality materials which, together with the innovative connectivity features, produce a hitherto unachieved ambience.",
+      "price": "12000",
+      "rating": "4.5",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/MD3rvGH/bmw-7-series-facelift-5941-defau.jpg"
+    },
+    {
+      "_id": "618f58640828cd9bf81c58b8",
+      "brand": "BMW",
+      "title": "BMW 5 SERIES SEDAN",
+      "description": "The BMW 5 Series Sedan guides sportiness and self-assuredness to the next common level – thanks above all to the typical BMW proportions such as long wheelbase, the extended bonnet and the flowing roof line. Precise contours provide a fascinating contrast to the streamlined, reduced surfaces, creating a modern, puristic look. In particular, the BMW kidney grille and BMW Laserlight give the front a dynamic and innovative character. The headlights are seamlessly connected with the kidney grille, which additionally underlines the breadth of the vehicle and generates an exceptional elegance and presence that is maintained all the way through to the free-form tailpipes in the rear apron. The result is a stylish yet sporty overall image.",
+      "price": "110000",
+      "rating": "5",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/kqNSqxV/BMW-5-Series-Sedan-European-model-4.jpg"
+    },
+    {
+      "_id": "618f59090828cd9bf81c58b9",
+      "brand": "BMW",
+      "title": "BMW Z4",
+      "description": "BMW India has listed the 2019 Z4 on its official website, suggesting its imminent launch. It is expected to be available in two variants: sDrive20i and the M40i. Where the sDrive20i is powered by a 2.0-litre petrol engine that makes 197PS of power and 320Nm of torque, the M40i gets a 3.0-litre unit that produces 340PS and 500Nm. Both engines are mated to an 8-speed automatic transmission.  As far as features are concerned, the Z4 will be equipped with a 10.25-inch all-digital instrument cluster, 10.25-inch touchscreen infotainment system, Harman and Kardon music system, electrically adjustable front seats, ambient lighting, heads-up display and two-zone climate control. Safety features on offer include collision and pedestrian warning with city braking, lane departure warning, active cruise control with stop and go function, traffic sign recognition, distance information, rear parking sensors with cross-traffic alert and handsfree parking.  The BMW Z4 is expected to go on sale in the coming months. It is likely to be priced around Rs 80 lakh. Once launched, it will take on the likes of the Mercedes-Benz SLC and the Porsche 718 Boxster.",
+      "price": "75000",
+      "rating": "4.8",
+      "fuel": "cng",
+      "image": "https://i.ibb.co/4tVxx4Q/c7kn9sa-1463923-1.jpg"
+    },
+    {
+      "_id": "618f59640828cd9bf81c58ba",
+      "brand": "BMW",
+      "title": "BMW 6 Series",
+      "description": "BMW 6 Series Price: The facelifted 6 Series GT is priced from Rs 67.90 lakh to Rs 77.90 lakh (ex-showroom).  BMW 6 Series Variants: BMW offers it in two trims: Luxury Line and M Sport.  BMW 6 Series Seating Capacity: It comes in a 5-seater configuration.  BMW 6 Series Engine and Transmission: The 6 Series GT gets both petrol and diesel engines. BMW has equipped the 630i M Sport with a 2.0-litre four-cylinder petrol engine (258PS/400Nm), while the 620d Luxury Line comes with a 2.0-litre four-cylinder diesel (190PS/400Nm). The top-spec 630d M Sport is powered by a 3.0-litre in-line six-cylinder diesel motor (265PS/620Nm). An 8-speed automatic gearbox is offered as standard.  BMW 6 Series Features: It comes with a digital driver’s display as well as a touchscreen infotainment system (both measuring 12.3-inches) that now supports Android Auto.  It also gets ambient lighting, wireless charging, a dual-pane panoramic glass sunroof, four-zone climate control, two touchscreens at the rear (both measuring 10.25-inches), and a 16-speaker Harman Kardon sound system.  BMW 6 Series Safety: Safety features on board include multiple airbags, cornering brake control, ABS with brake assist, and vehicle stability control.  BMW 6 Series Rivals: The BMW 6 Series GT has no direct rivals as such but it goes up against the facelifted Mercedes-Benz E-Class",
+      "price": "85000",
+      "rating": "4.6",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/QffM8Jy/6-Series-GT-1.jpg"
+    },
+    {
+      "_id": "618f59f80828cd9bf81c58bb",
+      "brand": "BMW",
+      "title": "BMW M5",
+      "description": "The BMW M5 has 1 Petrol Engine on offer. The Petrol engine is 4395 cc . It is available with Automatic transmission.Depending upon the variant and fuel type the M5 has a mileage of 9.12 kmpl . The M5 is a 5 seater 8 cylinder car and has length of 4983mm, width of 2126mm and a wheelbase of 2982mm.",
+      "price": "100000",
+      "rating": "5",
+      "fuel": "petrol",
+      "image": "https://i.ibb.co/Nxqrsx8/2020-bmw-m5-edition-35-years-1.webp"
+    },
+    {
+      "_id": "6200ee58511cb8aa3a5a58bb",
+      "brand": "Bugatti Chiron",
+      "title": "Bugatti",
+      "description": "nAI NAI ANI ",
+      "price": "400000",
+      "rating": "5",
+      "fuel": "petrol",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/FoS20162016_0624_132444AA_%2827785299372%29.jpg"
+    }
+  ]
+  

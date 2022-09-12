@@ -1,0 +1,66 @@
+.admin-dashboard{
+    background-color: #ecf0f1;
+}
+.sidebar {
+	display: grid;
+	grid-template-columns: 20% 75%;
+	column-gap: 30px;
+    /* position: fixed;
+    overflow-x: hidden;
+    top: 0;
+    left: 0; */
+}
+.side-nav ul li {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 17px;
+    cursor: pointer;
+    transition: .3s;
+    }
+    .side-nav ul li span {
+        font-size: 28px;
+        margin-right: 10px;
+        }
+    .side-nav ul li:hover {
+    color: brown;
+    }
+
+    .logo a{
+        text-decoration: none;
+        color: #333;
+        font-size: 38px;
+        font-weight: 800;
+    }
+
+    /* Responsive code */
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+      
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+  .sidebar {
+      column-gap: 10px;
+  }
+  .side-nav ul li {
+      font-size: 10px;
+      font-weight: 700;
+  }
+  .side-nav ul li span {
+      font-size: 20px;
+      display: block;
+  }
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+}

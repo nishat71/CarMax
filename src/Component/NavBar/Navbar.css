@@ -1,0 +1,189 @@
+.nav-area{
+    background-color: 	#212529;
+}
+.nav-container{
+    /* width: 1170px; */
+    margin: auto;
+}
+.navbar{
+    align-items: center;
+}
+.navbar ul:before{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 100%;
+    background-color: #fff;
+    transition: .3s;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+      
+
+}
+.navbar ul:hover:before{
+    visibility: visible;
+    opacity: 1;
+}
+.demo a{
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+/* responsive code */
+
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ .nav-container{
+     width: 992px;
+    
+ }
+ .logo{
+     width: 972PX;
+     text-align: center;
+ }
+ .navbar{
+        width: 600px;
+    }
+    .navbar ul li a{
+    }
+.navbar ul li a:before{ 
+        left: 0;
+        bottom: 190px;
+    }
+    .navbar ul li a:hover:before{
+        bottom: -14px;
+    }
+    .nav-font{
+        font-size:16px;
+    }
+    
+ 
+}
+
+/* Tablet Layout: 768px. */
+/* Checking Size 800px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-container{
+        width: 768px; 
+    }
+    .nav-logo{
+        width: 750PX;
+        text-align: center;
+    }
+    .navbar{
+           width: 450px;
+       }
+       .navbar ul li a{
+           font-size: 14px;
+    
+       }
+   .navbar ul li a:before{ 
+           left: 0;
+           bottom: 190px;
+       }
+       .navbar ul li a:hover:before{
+           bottom: -12px;
+       }
+       .navbtn button{
+           font-size: 13px;
+           border-radius: 15px;
+       }
+       .main-btn{
+        justify-content: center;
+    }
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+    .nav-container{
+        width: 320px;
+        display: flex;
+       
+    }
+    .logobar {
+        order: 1;
+        width: 43px;  
+    }
+    .logo{
+        font-size: 22px;
+        padding-right: 20px;
+    }
+    .nav-logo a {
+        font-size: 19px;
+    }
+    .navbar{
+        order: 3;
+        width: 320px;
+        margin-bottom: 15px;
+        justify-content: center;
+        /* background-color: #0a1520;
+        color: #fff; */
+       }
+       .navbar ul {
+        flex-direction: row;
+      }
+      .navbar ul li {
+        margin-bottom: 0;
+        margin-right: 0px;
+        margin: -10px 0px;
+      }
+      .navbar ul li a {
+        font-size: 10px;
+      }
+   .navbar ul li a:before{ 
+           left: 0;
+           bottom: 230px;
+       }
+       .navbar ul li a:hover:before{
+           bottom: -12px;
+       }
+       .navbtn{
+           /* width: 27%; */
+           order: 2;
+       }
+       .navbtn button{
+           font-size: 10px;
+           border-radius: 15px;
+       } 
+       .main-btn{
+        justify-content: center;
+    }
+  }
+  
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .nav-container{
+        width: 480px;
+        display: flex;
+       
+    }
+     .logobar{
+        order: 1;
+    }
+    .navbar{
+        order: 3;
+        width: 450px;
+        margin-bottom: 15px;
+        justify-content: center;
+        background-color: #0a1520;
+        color: #fff;
+       }
+       .navbtn{
+        order: 2;
+    }
+    .main-btn{
+        justify-content: center;
+    }
+   
+}

@@ -1,0 +1,375 @@
+.buton button:hover{
+    background-color: #2c3e50;
+}
+.car-area{
+    background-color: #F8F9FA;
+    /* background-color: #2c3e50; */
+}
+.car{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #F8F4DA; */
+    margin: auto;
+    position: relative;
+    width: 1170px;
+    margin: auto;
+    padding: 115px 0;
+}
+.car h2{
+    font-size: 30px;
+   font-family:'Oleo Script', cursive;
+   margin-bottom: 20px;
+   position: relative;
+}
+.car h4 {
+	padding-top: 160px;
+	color: tomato;
+}
+.car-search {
+	width: 1170px;
+	margin: auto;
+	background-color: #0a1520;
+	position: absolute;
+	left: 0;
+	top: 20px;
+	z-index: 2;
+	border-radius: 10px;
+	padding: 16px 23px;
+}
+.car-box{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+} 
+.car-item{
+    /* width: 32%; */
+    width: 43%;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.car-item .image img{
+    transition: .3s;
+}
+.car-item .image img:hover{
+    transform: scale(1.1);
+}
+ .car-box .car-item .image:hover .car-buton {
+     cursor: pointer;
+    bottom: 0;
+  } 
+   .car-item .image{
+       position: relative;
+       overflow: hidden;
+   }
+  .car-item .image .car-buton {
+    position: absolute;
+    content: "";
+    background-color: #0a1520;
+    opacity: .75;
+    left: 0;
+    bottom: -78px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+ 
+  .car-buton .logo{
+      font-size: 25px;
+      font-weight: 600;
+      padding: 10px 0;
+      color: #fff;
+  }
+.image img{
+    height: 230px;
+}
+
+.car h2:after{
+    position: absolute;
+    content: "";
+    width: 79px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    bottom: -7px;
+    margin: 0 auto;
+    background-color: tomato;
+    
+
+}
+.content{
+    height: 140px;
+}
+/* .content2 {
+	display: grid;
+	grid-template-columns: repeat(3,32%);
+	justify-content: space-between;
+} */
+.content_title{
+    width: 60%;
+}
+.car-btn{
+    width: 40%;
+    text-align: end;
+}
+.car-btn button{
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 20px;
+    font-weight: 900;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.car-btn button:after{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    left: -100%;
+    top: 0;
+    background-color: #0a1520;
+    transition: .4s;
+    z-index: -1;
+}
+.car-btn button:hover:after{
+    left: 0;
+}
+.bg-black{
+    color: #333333;
+}
+.car-content{
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 2px solid #333;
+    display: flex;
+	justify-content: space-between;
+}
+
+.car-content_title {
+    color: #333;
+    /* display: flex;
+    justify-content: space-between; */
+  }
+  .car-content_title h3 {
+	font-size: 15px;
+	font-weight: 600;
+}
+.car-content_title h5 {
+	font-size: 25px;
+	font-weight: 600;
+    line-height: 18px;
+}
+
+
+.rating h3 {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 30px;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.bottom-detail {
+	display: flex;
+	justify-content: space-evenly;
+	text-transform: lowercase;
+}
+
+.form-contain {
+   
+    margin: auto;
+}
+form input[type="submit"] {
+    width: 150px;
+    padding: 4px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: #fff;
+    color: #0a1520;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+form input[type="submit"]:hover {
+   background-color: #fff;
+   color: tomato;
+}
+
+
+
+
+
+
+
+
+/* Responsive code */
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .car-search {
+        width: 970px;
+    }
+    .car{
+        width: 970px;
+    }
+    .car-box{
+    }
+    .car-item{
+        width: 30%;
+    }
+    .image img{
+        height: 230px;
+    }
+    .content{
+        height: 140px;
+    }
+    .content_title{
+        width: 70%;
+    }
+    .car-btn{
+        width: 30%;
+        text-align: end;
+    }
+    .car-btn button{
+        font-size: 10px;
+        padding: 10px 10px;
+       
+    }
+.content_title h2{
+    font-size: 20px;
+}
+.content_title p{
+    font-size: 16px;
+}
+.car-item .image .car-buton {
+	bottom: -54px;
+}
+}
+
+/* Tablet Layout: 768px. */
+/* Checking Size 800px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .car{
+        width: 750px;
+    }
+    .car-box{
+    }
+    .car-item{
+        width: 45%;
+    }
+    .image img{
+        height: 230px;
+    }
+    .content{
+        height: 120px;
+    }
+    .car-btn button{
+        font-size: 13px;
+        padding: 10px 10px;
+       
+    }
+.content_title h2{
+    font-size: 20px;
+}
+.content_title p{
+    font-size: 16px;
+}
+.car-search {
+	width: 750px;
+	padding: 4px 20px;
+}
+.car-box {
+	justify-content: space-around;
+}
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+    .car-search {
+        width: 320px;
+        margin: auto;
+    }
+    .car{
+        width: 320px;
+    }
+    .car-item{
+        width: 100%;
+    }
+    /* .car{
+        width: 320px;
+    }
+    .car h2{
+        font-size: 20px;
+    }
+    .car h2::before{
+        width: 70px;
+    }
+    .car h2::after{
+        width: 50px;
+    }
+    .car-item{
+        width: 90%;
+    }
+    .image img{
+        height: 230px;
+    }
+    .content{
+        height: 130px;
+    }
+    .car-btn button{
+        font-size: 10px;
+        padding: 10px 10px;
+       
+    }
+.content_title h2{
+    font-size: 20px;
+}
+.content_title p{
+    font-size: 16px;
+} */
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .car{
+        width: 450px;
+    }
+    .car-box{
+    }
+    .car-item{
+        width: 90%;
+    }
+    .image img{
+        height: 230px;
+    }
+    .content{
+        height: 120px;
+    }
+    .car-btn button{
+        font-size: 10px;
+        padding: 10px 10px;
+       
+    }
+.content_title h2{
+    font-size: 20px;
+}
+.content_title p{
+    font-size: 16px;
+}
+.car-search {
+	width: 450px;
+}
+.car h4 {
+	padding-top: 226px;
+}
+}

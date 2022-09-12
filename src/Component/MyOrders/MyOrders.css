@@ -1,0 +1,9 @@
+.orders {
+    min-height: 80vh;
+  }
+  
+  @media (max-width: 480px) {
+    .orders table {
+      width: 300px;
+    }
+  }

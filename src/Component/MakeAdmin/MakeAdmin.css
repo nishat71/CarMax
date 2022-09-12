@@ -1,0 +1,85 @@
+.admin-form{
+    min-height:100vh;
+}
+.admin-area{
+    background-color:rgba(245, 239, 239, 0.5);
+    /* background-color:rgba(245, 239, 239, 0.5);
+    position: relative;
+    z-index:2;
+    border-radius:10px; */
+    
+}
+.bg-img {
+    padding-top:40px;
+    /* background-image: url('../../../public/black-bg.png'); */
+    background-image: url('../../../public/admin-bg-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     /* position: relative; */
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+  }
+hr{
+    height:1px;
+}
+.admin-title h2{
+    font-size:34px;
+    font-weight:bold;
+    text-transform:capitalize;
+    position: relative;
+    padding-bottom:10px;
+}
+.admin-title h2:before{
+    position:absolute;
+    content:"";
+    width:80px;
+    height:2px;
+    /* background-color:#ff7720; */
+    background-color:red;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+}
+.admin-title h2:after{
+    position:absolute;
+    content:"";
+    width:40px;
+    height:2px;
+    background-color:#222;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    
+}
+.admin-form-container input[type="email"] {
+    /* border: none;
+    border-bottom: 2px solid royalblue;
+    margin-bottom: 5%; */
+    width:100%;
+    padding:5px 10px;
+    background-color:transparent;
+    /* border:1px solid rgb(169, 166, 166); */
+    border:2px solid black;
+    color:black;
+    font-weight:bold;
+    border-radius:5px;
+}
+.admin-form-container input[type="email"]:focus {
+    /* border:2px solid red; */
+    outline: none;
+
+}
+.admin-form-container ::placeholder{
+ color:#222;
+}
+::placeholder {
+    font-size: 14px;
+     /* font-weight:bold; */
+    /* color:#fff;
+    /* opacity: 1;  */
+  }
+
+
+

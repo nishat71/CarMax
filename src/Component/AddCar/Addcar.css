@@ -1,0 +1,9 @@
+.addcar{
+   padding: 10px;
+}
+.addcar h2{
+	background-color: #1abc9c;
+	font-size: 30px;
+	font-weight: 600;
+	border-radius: 5px;
+}

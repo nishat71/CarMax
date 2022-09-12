@@ -1,0 +1,48 @@
+.cover{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../../../public/cars.png');
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 30vh;
+    margin: auto;
+}
+
+
+
+
+/* Responsive code */
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .cover{
+        width: 970px;
+        height: 170px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+/* Checking Size 800px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .cover{
+        width: 750px;
+        height: 160px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+    .cover{
+        width: 320px;
+        height: 80px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .cover{
+        width: 450px;
+        height: 100px;
+    }
+}

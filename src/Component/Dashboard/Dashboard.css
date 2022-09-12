@@ -1,0 +1,297 @@
+.welcome{
+  border-radius: 5px;
+}
+.welcome h4{
+  background-color: #1abc9c;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Oleo Script', cursive;
+  padding: 10px 25px;
+}
+.welcome p{
+  padding: 10px 25px;
+}
+.portfolio-performance {
+    background-color: #1abc9c;
+    margin-bottom: 20px;
+    /* box-shadow: 5px 8px 15px #333; */
+    border-radius: 5px;
+
+  }
+  
+  .performance-support {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .portfolio-performance h2 {
+	font-size: 34px;
+  color: #fff;
+	font-weight: 700;
+	text-transform: capitalize;
+	/* margin-left: 30px; */
+	/* margin-bottom: 30px; */
+  padding: 10px 25px;
+}
+
+
+/* Inline #22 | http://localhost:3000/dashboard */
+
+  
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    column-gap: 30px;
+  }
+  
+  .performance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo p {
+    font-size: 30px;
+    margin-right: 27px;
+    height: 60px;
+    width: 60px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 50%;
+    padding-left: 15px;
+    line-height: 46px;
+  }
+  
+  .perform-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .perform-content h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .perform-content p span {
+    color: #f1c40f;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .perform-content p {
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+
+  }
+  
+  
+.sales-container {
+    display: grid;
+    grid-template-columns: repeat(4,22%);
+    column-gap: 37px;
+    margin-bottom: 45px;
+  }
+  
+  .sales {
+    background-color: #1abc9c;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 20px;
+    /* box-shadow: 5px 8px 15px #333; */
+  }
+  
+  .sales h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  
+  
+  .sales h4 {
+    font-style: italic;
+    color: #fff;
+  }
+  .chart-text {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    }
+.chart {
+  width: 800px;
+  margin-bottom: 40px;
+}
+
+.single-chart {
+  background-color: #1abc9c;
+  box-shadow: 5px 8px 15px #333;
+  margin-right: 20px;
+
+}
+
+
+  .table-content {
+    display: flex;
+  }
+  .table h2{
+    background-color: #1abc9c;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .table h4 span {
+    font-size: 40px;
+  }
+
+
+.single-chart h4 {
+  color: #1abc9c;
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.single-chart h3 {
+  padding: 10px 80px;
+  color: #333;
+  font-weight: 600;
+}
+
+.single-chart h3 span {
+  color: #e74c3c;
+}
+
+.dash-logo img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+  border: 4px solid #333;
+}
+
+.dash-logo button {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.dash-logo button:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: 0;
+  background-color: #0a1520;
+  transition: .3s;
+  z-index: -2;
+}
+
+.dash-logo button:hover:before {
+  left: 0;
+}
+.client{
+  min-height: 30vh;
+}
+
+
+
+/* Responsive code */
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+      
+}
+
+/* Mobile Layout: 320px. */
+/* Checing Point: 400px */
+@media only screen and (max-width: 767px) {
+ 
+  .welcome h4 {
+    font-size: 20px;
+  }
+  .welcome p {
+    font-size: 14px;
+  }
+  .portfolio-performance h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .side-nav ul li {
+    font-size: 10px;
+  }
+
+.welcome h4 {
+  font-size: 20px;
+}
+.welcome p {
+  font-size: 14px;
+}
+
+.portfolio-performance h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+  .logo {
+    font-size: 10px;
+  }
+
+.logo p {
+  font-size: 17px;
+  margin-right: -20px;
+  height: 30px;
+  width: 36px;
+  padding-left: 9px;
+  line-height: 26px;
+}
+
+.perform-content h4 {
+  font-size: 12px;
+}
+
+.perform-content h1 {
+
+  font-size: 20px;
+}
+
+.perform-content p {
+  font-size: 10px;
+}
+
+.portfolio {
+ 
+  column-gap: 13px;
+}
+.sales-container {
+	grid-template-columns: repeat(2,43%);
+	column-gap: 30px;
+	margin-bottom: 30px;
+}
+.sales h4 {
+	
+	font-size: 15px;
+}
+.sales {
+
+	margin-bottom: 10px;
+}
+.chart {
+	display: none;
+}
+.table{
+  display: none;
+}
+.navbar-light .navbar-toggler {
+	display: none;
+}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+}

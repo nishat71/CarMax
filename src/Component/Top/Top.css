@@ -1,0 +1,53 @@
+.container {
+    /* width: 500px; */
+    margin: auto;
+    text-align: center;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 40px;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+  }
+  
+  .back-to-top:hover {
+    background: rgb(62, 53, 236);
+  }
+
+
+
+
+
+
+  
+/* Responsive code */
+/* Medium Layout: 1280px. */
+/* Checking Size 1000px */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+}
+
+
+
+/* Mobile Layout: 320px. */
+/* Checking Point: 400px */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ 
+}
