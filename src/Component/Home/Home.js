@@ -13,7 +13,7 @@ import HomeCars from "../HomeCars/HomeCars";
 import NavBar from "../NavBar/NavBar";
 import Review from "../Review/Review";
 import Stat_cont from "../Stat/Stat_cont";
-import Team from "../Team/Team";
+// import Team from "../Team/Team";
 import Top from "../Top/Top";
 
 const Home = () => {
@@ -31,7 +31,7 @@ const Home = () => {
       <Review />
       <Contact />
       <Faq />
-      <Team />
+      {/* <Team /> */}
       <Top/>
     </div>
   );
